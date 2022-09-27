@@ -37,7 +37,7 @@
         <a href="#contact">Contact</a>
     </div>
 
-    <button class="btn-menu">Menu</button>
+    <button class="btn-mobile-menu">Menu</button>
 
 <!--
             <div class="dropdown">
@@ -68,9 +68,11 @@
     </nav>
 </header>
 
-<main>
+<div class="main">
 
-<div class="background-img">
+<!-- front page main -->
+
+<div class="frontpage-img">
     <picture>
         <source srcset="./../img/background-img-small.jpg" media="(max-width: 700px)"/>
         <source srcset="./../img/background-img-medium.jpg" media="(min-width: 701px)"/>
@@ -87,51 +89,90 @@
     <button class="frontpage-btn">Learn more about us</button>
 </div>
 
-<!-- Sections -->
 <!-- services -->
 
-    <div>
-        <img src="" alt="">
-        <h2><a href="">Hair styles</a></h2>
-        <p>A small river named Duden flows by their place nad supplies it with the necessary
-            regelialia. It is a paradisematic country, in which roasted parts</p>
+    <div class="services">
+        <section class="services-col-1">
+            <div class="img-col-1">
+                <picture>
+                    <source srcset="./../img/background-img-small.jpg" media="(max-width: 700px)"/>
+                    <source srcset="./../img/background-img-medium.jpg" media="(min-width: 701px)"/>
+                    <img src="./../img/background-img-medium.jpg" alt="barbershop"/>
+                </picture>
+            </div>
+            <h2><a href="">Hair styles</a></h2>
+            <p>A small river named Duden flows by their place nad supplies it with the necessary
+                regelialia. It is a paradisematic country, in which roasted parts</p>
+        </section>
     </div>
 
-    <div>
-        <img src="" alt="">
-        <h2><a href="">Beard trim</a></h2>
-        <p>A small river named Duden flows by their place nad supplies it with the necessary 
-            regelialia. It is a paradisematic country, in which roasted parts</p>
+    <div class="services">
+        <section class="services-col-2">
+            <div class="img-col-2">
+                <picture>
+                    <source srcset="./../img/background-img-small.jpg" media="(max-width: 700px)"/>
+                    <source srcset="./../img/background-img-medium.jpg" media="(min-width: 701px)"/>
+                    <img src="./../img/background-img-medium.jpg" alt="barbershop"/>
+                </picture>
+            </div>
+            <h2><a href="">Beard trim</a></h2>
+            <p>A small river named Duden flows by their place nad supplies it with the necessary 
+                regelialia. It is a paradisematic country, in which roasted parts</p>
+        </section>
     </div>
 
-    <div>
-        <img src="" alt="">
-        <h2><a href="">Hot shave</a></h2>
-        <p>A small river named Duden flows by their place nad supplies it with the necessary 
-            regelialia. It is a paradisematic country, in which roasted parts</p>
+    <div class="services">
+        <section class="services-col-3">
+            <div class="img-col-3">
+                <picture>
+                    <source srcset="./../img/background-img-small.jpg" media="(max-width: 700px)"/>
+                    <source srcset="./../img/background-img-medium.jpg" media="(min-width: 701px)"/>
+                    <img src="./../img/background-img-medium.jpg" alt="barbershop"/>
+                </picture>
+            </div>
+            <h2><a href="">Hot shave</a></h2>
+            <p>A small river named Duden flows by their place nad supplies it with the necessary 
+                regelialia. It is a paradisematic country, in which roasted parts</p>
+        </section>
     </div>
 
-    <div>
-        <img src="" alt="">
-        <h2><a href="">Hair schampoo</a></h2>
-        <p>A small river named Duden flows by their place nad supplies it with the necessary 
-            regelialia. It is a paradisematic country, in which roasted parts</p>
+    <div class="services">
+        <section class="services-col-4">
+            <div class="img-col-4">
+                <picture>
+                    <source srcset="./../img/background-img-small.jpg" media="(max-width: 700px)"/>
+                    <source srcset="./../img/background-img-medium.jpg" media="(min-width: 701px)"/>
+                    <img src="./../img/background-img-medium.jpg" alt="barbershop"/>
+                </picture>
+            </div>
+            <h2><a href="">Hair schampoo</a></h2>
+            <p>A small river named Duden flows by their place nad supplies it with the necessary 
+                regelialia. It is a paradisematic country, in which roasted parts</p>
+        </section>
     </div>
 
-<!-- om oss -->
+<!-- om oss / about us -->
         
-    <div>
-        <img src="" alt="">
-        <h2>About barber</h2>
-        <h3>A smooth barber experience in your town</h3>
-        <p>Far far away, behind the word mountains, far from the countrues Vokalia and Consonantia, 
-            there live the blind texts. Separated they live in Bookmarksgrove right at the coast of 
-            the Semantics, a large languague ocean. A small river named Duden flows by their place 
-            and supplies it with the necessary regelialia.</p>
-        <button><a href="#">20 years of experienced</a></button>
+    <div class="about-us">
+        <div class="about-us-img">
+            <picture>
+                <source srcset="./../img/background-img-small.jpg" media="(max-width: 700px)"/>
+                <source srcset="./../img/background-img-medium.jpg" media="(min-width: 701px)"/>
+                <img src="./../img/background-img-medium.jpg" alt="barbershop"/>
+            </picture>
         </div>
+        <section class="about-barber">
+            <h2>About barber</h2>
+            <h3>A smooth barber experience in your town</h3>
+            <p>Far far away, behind the word mountains, far from the countrues Vokalia and Consonantia, 
+                there live the blind texts. Separated they live in Bookmarksgrove right at the coast of 
+                the Semantics, a large languague ocean. A small river named Duden flows by their place 
+                and supplies it with the necessary regelialia.</p>
+        </section>
+        <button><a href="#">20 years of experience</a></button>
+    </div>
 
-<!-- recensioner + extra recensioner -->
+<!-- recensioner mobil -->
 
     <div>
         <h2>Testimonial</h2>
@@ -140,8 +181,9 @@
             there live the blind texts.</blockquote>
         <img src="" alt="">
         <!-- bildtext -->
-
     </div>
+
+<!-- recensioner desktop -->
 
     <div>
         <blockquote>Far far away, behind the word mountains, far from the countries Cokalia and Consonantia, 
@@ -151,7 +193,8 @@
     </div>
 
     <div>
-        <blockquote>Far far away, behind the word mountains, far from the countries Cokalia and Consonantia, there live the blind texts.</blockquote>
+        <blockquote>Far far away, behind the word mountains, far from the countries Cokalia and Consonantia, 
+        there live the blind texts.</blockquote>
         <img src="" alt="">
         <!-- bildtext -->
     </div>
@@ -162,43 +205,51 @@
 
 <!-- footer -->
 
-<div>
-    <h2>Barbershop</h2>
-    <p>Far far away, behind the word mountains, far from the countries.</p>
-    <!-- länka favicons -->
-    <img src="" alt="Twitter">
-    <img src="" alt="Facebook">
-    <img src="" alt="Instagram">
+<div class="footer-barbershop">
+    <section class="footer-col-2">
+        <h2>Barbershop</h2>
+        <p>Far far away, behind the word mountains, far from the countries.</p>
+        <!-- länka favicons -->
+        <img src="" alt="Twitter">
+        <img src="" alt="Facebook">
+        <img src="" alt="Instagram">
+    </section>
 </div>
 
-<div>
-    <h2>Explore</h2>
-    <ul>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Services</a></li>
-        <li><a href="#">Gallery</a></li>
-        <li><a href="#">Blog</a></li>
-    </ul>
+<div class="footer-explore">
+    <section class="footer-col-2">
+        <h2>Explore</h2>
+        <ul>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Gallery</a></li>
+            <li><a href="#">Blog</a></li>
+        </ul>
+    </section>
 </div>
 
-<div>
-    <h2>Info</h2>
-    <ul>
-        <li><a href="#">Join us</a></li>
-        <li><a href="#">Make Appointment</a></li>
-        <li><a href="#">Privacy & Policy</a></li>
-        <li><a href="#">Terms & Conditions</a></li>
-    </ul>
+<div class="footer-info">
+    <section class="footer-col-3">
+        <h2>Info</h2>
+        <ul>
+            <li><a href="#">Join us</a></li>
+            <li><a href="#">Make Appointment</a></li>
+            <li><a href="#">Privacy & Policy</a></li>
+            <li><a href="#">Terms & Conditions</a></li>
+        </ul>
+    </section>
 </div>
 
-<div>
-    <h2>Have a question?</h2>
-    <!-- favicons? -->
-    <ul>
-        <li><a href="#">203 Fake St. Mountain View, San Francisco, California, USA</a></li>
-        <li><a href="mailto:min@epost.test">info@yourdomain.com</a></li>
-        <li><a href="tel:+20123456789">+2 392 3929 210</a></li>
-    </ul>
+<div class="footer-contact">
+    <section class="footer-col-4">
+        <h2>Have a question?</h2>
+        <!-- favicons? -->
+        <ul>
+            <li><a href="#">203 Fake St. Mountain View, San Francisco, California, USA</a></li>
+            <li><a href="mailto:min@epost.test">info@yourdomain.com</a></li>
+            <li><a href="tel:+20123456789">+2 392 3929 210</a></li>
+        </ul>
+    </section>
 </div>
 
 </footer>
