@@ -25,8 +25,8 @@
 
 <header>
 
-<nav>
-    <h1>Barbershop</h1>
+<nav class="main-nav">
+    <h1><strong>Barbershop</strong></h1>
     <div class="desktop-menu">
         <a href="#home" class="home">Home</a>
         <a href="#about">About</a>
@@ -74,35 +74,29 @@
 
 <div class="frontpage-img">
     <picture>
-        <source srcset="./../img/background-img-small.jpg" media="(max-width: 700px)"/>
-        <source srcset="./../img/background-img-medium.jpg" media="(min-width: 701px)"/>
         <img src="./../img/background-img-medium.jpg" alt="barbershop"/>
     </picture>
 </div>
 
 <div class="frontpage-content">
     <h2 class="welcome">Welcome to barbershop</h2>
-    <h3 class="frontpage-quote">We will make <span>your style</span> of your dreams</h3>
+    <h3 class="frontpage-quote">We will make <span class="frontpage-span">your style</span> of your dreams</h3>
     <p class="frontpage-text">A small river named Duden flows by their place and supplies it 
         with the neccessary regelialia. It is a paradisematic country, in which roasted 
         parts of sentences fly into your mouth.</p>
     <button class="frontpage-btn">Learn more about us</button>
 </div>
-
 <!-- services -->
-
     <div class="services">
         <section class="services-col-1">
             <div class="img-col-1">
                 <picture>
-                    <source srcset="./../img/background-img-small.jpg" media="(max-width: 700px)"/>
-                    <source srcset="./../img/background-img-medium.jpg" media="(min-width: 701px)"/>
-                    <img src="./../img/background-img-medium.jpg" alt="barbershop"/>
+                    <img src="./../img/services-1.jpg" alt="avatar" class="avatar"/>
                 </picture>
             </div>
-            <h2><a href="">Hair styles</a></h2>
+            <h2>Hair styles</h2>
             <p>A small river named Duden flows by their place nad supplies it with the necessary
-                regelialia. It is a paradisematic country, in which roasted parts</p>
+                regelialia. It is a paradisematic country, in which roasted parts.</p>
         </section>
     </div>
 
@@ -110,14 +104,12 @@
         <section class="services-col-2">
             <div class="img-col-2">
                 <picture>
-                    <source srcset="./../img/background-img-small.jpg" media="(max-width: 700px)"/>
-                    <source srcset="./../img/background-img-medium.jpg" media="(min-width: 701px)"/>
-                    <img src="./../img/background-img-medium.jpg" alt="barbershop"/>
+                    <img src="./../img/services-1.jpg" alt="avatar" class="avatar"/>
                 </picture>
             </div>
-            <h2><a href="">Beard trim</a></h2>
+            <h2>Beard trim</h2>
             <p>A small river named Duden flows by their place nad supplies it with the necessary 
-                regelialia. It is a paradisematic country, in which roasted parts</p>
+                regelialia. It is a paradisematic country, in which roasted parts.</p>
         </section>
     </div>
 
@@ -125,14 +117,12 @@
         <section class="services-col-3">
             <div class="img-col-3">
                 <picture>
-                    <source srcset="./../img/background-img-small.jpg" media="(max-width: 700px)"/>
-                    <source srcset="./../img/background-img-medium.jpg" media="(min-width: 701px)"/>
-                    <img src="./../img/background-img-medium.jpg" alt="barbershop"/>
+                    <img src="./../img/services-1.jpg" alt="avatar" class="avatar"/>
                 </picture>
             </div>
-            <h2><a href="">Hot shave</a></h2>
+            <h2>Hot shave</h2>
             <p>A small river named Duden flows by their place nad supplies it with the necessary 
-                regelialia. It is a paradisematic country, in which roasted parts</p>
+                regelialia. It is a paradisematic country, in which roasted parts.</p>
         </section>
     </div>
 
@@ -140,14 +130,12 @@
         <section class="services-col-4">
             <div class="img-col-4">
                 <picture>
-                    <source srcset="./../img/background-img-small.jpg" media="(max-width: 700px)"/>
-                    <source srcset="./../img/background-img-medium.jpg" media="(min-width: 701px)"/>
-                    <img src="./../img/background-img-medium.jpg" alt="barbershop"/>
+                    <img src="./../img/services-1.jpg" alt="avatar" class="avatar"/>
                 </picture>
             </div>
-            <h2><a href="">Hair schampoo</a></h2>
+            <h2>Hair schampoo</h2>
             <p>A small river named Duden flows by their place nad supplies it with the necessary 
-                regelialia. It is a paradisematic country, in which roasted parts</p>
+                regelialia. It is a paradisematic country, in which roasted parts.</p>
         </section>
     </div>
 
@@ -156,36 +144,35 @@
     <div class="about-us">
         <div class="about-us-img">
             <picture>
-                <source srcset="./../img/background-img-small.jpg" media="(max-width: 700px)"/>
-                <source srcset="./../img/background-img-medium.jpg" media="(min-width: 701px)"/>
-                <img src="./../img/background-img-medium.jpg" alt="barbershop"/>
+                <img src="./../img/about-us-img.jpg" alt="barbershop" class="about-img"/>
             </picture>
         </div>
         <section class="about-barber">
             <h2>About barber</h2>
             <h3>A smooth barber experience in your town</h3>
-            <p>Far far away, behind the word mountains, far from the countrues Vokalia and Consonantia, 
+            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, 
                 there live the blind texts. Separated they live in Bookmarksgrove right at the coast of 
                 the Semantics, a large languague ocean. A small river named Duden flows by their place 
                 and supplies it with the necessary regelialia.</p>
         </section>
-        <button><a href="#">20 years of experience</a></button>
+        <button class="calendar"><img src="./../img/calender-icon-white.png" alt="calendar" class="calendar-img"/><a href="#"><span class="number">20</span><br> years of<br> experience</a></button>
     </div>
 
 <!-- recensioner mobil -->
-
-    <div>
+<div class="mobil">
+    <div class="testimonial">
         <h2>Testimonial</h2>
-        <h3>People say about our barber</h3>
+        <h3>People say<br> about our barber</h3>
         <blockquote>Far far away, behind the word mountains, far from the countries Cokalia and Consonantia, 
             there live the blind texts.</blockquote>
         <img src="" alt="">
         <!-- bildtext -->
     </div>
+</div>
 
 <!-- recensioner desktop -->
-
-    <div>
+<div class="desktop">
+    <div class="testimonial">
         <blockquote>Far far away, behind the word mountains, far from the countries Cokalia and Consonantia, 
             there live the blind texts.</blockquote>
         <img src="" alt="">
@@ -193,26 +180,29 @@
     </div>
 
     <div>
-        <blockquote>Far far away, behind the word mountains, far from the countries Cokalia and Consonantia, 
+        <blockquote class="testimonial-add-desktop">Far far away, behind the word mountains, far from the countries Cokalia and Consonantia, 
         there live the blind texts.</blockquote>
         <img src="" alt="">
         <!-- bildtext -->
     </div>
+</div>
 
 </main>
 
-<footer>
+<footer class="footer">
 
 <!-- footer -->
+
+<!-- ladda ner nya ikoner till sociala medier -->
 
 <div class="footer-barbershop">
     <section class="footer-col-2">
         <h2>Barbershop</h2>
         <p>Far far away, behind the word mountains, far from the countries.</p>
         <!-- länka favicons -->
-        <img src="" alt="Twitter">
-        <img src="" alt="Facebook">
-        <img src="" alt="Instagram">
+        <img src="./../img/" alt="Twitter" height="20" width="20" class="media-img">
+        <img src="./../img/" alt="Facebook" height="20" width="20" class="media-img">
+        <img src="./../img/" alt="Instagram" height="20" width="20" class="media-img">
     </section>
 </div>
 
@@ -245,9 +235,12 @@
         <h2>Have a question?</h2>
         <!-- favicons? -->
         <ul>
-            <li><a href="#">203 Fake St. Mountain View, San Francisco, California, USA</a></li>
-            <li><a href="mailto:min@epost.test">info@yourdomain.com</a></li>
-            <li><a href="tel:+20123456789">+2 392 3929 210</a></li>
+            <li><img src="./../img/adress.png" alt="adress" height="20" width="20" class="contact-img">
+                <a href="#">203 Fake St. Mountain View, San Francisco, California, USA</a></li>
+            <li><img src="./../img/tel.png" alt="telephone" height="20" width="20" class="contact-img">
+                <a href="tel:+20123456789">+2 392 3929 210</a></li>
+            <li><img src="./../img/email.png" alt="email" height="20" width="20" class="contact-img">
+                <a href="mailto:min@epost.test">info@yourdomain.com</a></li>
         </ul>
     </section>
 </div>
