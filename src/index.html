@@ -23,8 +23,9 @@
 
 <!-- header banner -->
 
-    <header>
-    <nav>
+<header>
+
+<nav>
     <h1>Barbershop</h1>
     <div class="desktop-menu">
         <a href="#home" class="home">Home</a>
@@ -64,13 +65,17 @@
             
 -->
 
-        </nav>
-    </header>
+    </nav>
+</header>
 
 <main>
-        
-<div class="background-image">
-<img src="https://images.unsplash.com/photo-1585747860715-2ba37e788b70?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1174&q=80" alt="barbershop" height="100%">
+
+<div class="background-img">
+    <picture>
+        <source srcset="./../img/background-img-small.jpg" media="(max-width: 700px)"/>
+        <source srcset="./../img/background-img-medium.jpg" media="(min-width: 701px)"/>
+        <img src="./../img/background-img-medium.jpg" alt="barbershop"/>
+    </picture>
 </div>
 
 <div class="frontpage-content">
