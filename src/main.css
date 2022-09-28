@@ -10,14 +10,15 @@ body {
 }
 
 img .frontpage-img{
+    display: flex;
     background-size: 100%;
-    height: 700px;
+    height: 600px;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
 }
 
-li {
+.li-none {
     list-style: none;
 }
 
@@ -86,8 +87,8 @@ button.btn-mobile-menu {
 
 .frontpage-span {
     color: transparent;
-          -webkit-text-stroke-width: .05px;
-          -webkit-text-stroke-color: white;
+    -webkit-text-stroke: 0.1px rgb(255, 255, 255);
+    -webkit-text-fill-color: transparent;
     }
 
 .frontpage-text {
@@ -136,8 +137,9 @@ button.btn-mobile-menu {
     padding: 20px;
 }
 
-.img-col-1 {
+.img-col-1 , .img-col-2 , .img-col-3 , .img-col-4 {
     display: flex;
+    justify-content: center;
 }
 
 .avatar {
@@ -146,9 +148,12 @@ button.btn-mobile-menu {
     border-radius: 50%;
   }
 
-.about-img {
-    height: 50vh;
-    padding: 20px solid white;
+  /* about us */
+
+.about-us-img , .about-img {
+    display: flex;
+    justify-content: center;
+    height: 300px;
 }
 
 .about-barber h2 , h3 {
@@ -159,35 +164,38 @@ button.btn-mobile-menu {
 .about-barber h2 {
     color: rgb(191, 146, 91);
     font-size: .85rem;
+    padding-left: 15px;
 }
 
 .about-barber h3 {
     color: rgb(0, 0, 0);
     font-size: 1.35rem;
+    text-align: left;
+    padding-left: 15px;
 }
 
 .about-barber p {
     color: inherit;
     font-size: .95rem;
     font-family: 'Poppins';
+    padding-left: 15px;
 }
 
 .calendar {
+    display: flex;
     text-transform: uppercase;
     height: 80px;
     width: 200px;
-    padding: 20px;
     margin: 10px;
     background-color:rgb(191, 146, 91);
-    color: rgb(191, 146, 91);
     cursor: pointer;
-    text-align: left;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 .calendar-img {
     width: 30px;
     height: 30px;
-    align-self: left;
 }
 
 .number {
@@ -198,6 +206,7 @@ button.btn-mobile-menu {
     font-size: 0.8rem;
     text-decoration: none;
     color: white;
+    text-align: left;
 }
 
 /* testimonial / recensioner */
@@ -208,7 +217,7 @@ button.btn-mobile-menu {
     width: 100%;
 }
 
-.testimonial h2 , h3 {
+.testimonial.h2.h3 {
     font-family: 'Barlow Semi Condensed', sans-serif;
     text-transform: uppercase;
     text-align: center;
@@ -226,10 +235,30 @@ button.btn-mobile-menu {
 blockquote {
     background-color: white;
     height: 300px;
+    width: 85%;
+    border-radius: 20px;
     color: grey;
     font-family: 'Poppins';
     text-align: left;
     font-size: 1.1rem;
+}
+
+.testimonial.quotation-img {
+    display: flex;
+    justify-content: center;
+}
+
+.img-quotation {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.quotation-img {
+    background-color:  rgb(191, 146, 91);
+    width: 40px;
+    height: 40px;
+    border: 5px solid  rgb(191, 146, 91);
+    border-radius: 50%;
 }
 
 .desktop {
@@ -248,13 +277,29 @@ blockquote {
     text-transform: uppercase;
 }
 
-.footer p a {
+p , a {
     font-family: 'Poppins';
+    font-size: .8rem;
 }
 
 .footer a {
     text-decoration: none;
     color: white;
+}
+
+.media-img {
+    background-color:  rgb(191, 146, 91);
+    border-radius: 50%;
+    margin-top: 10px;
+}
+
+.footer-barbershop , .footer-explore , .footer-info , .footer-contact {
+    margin-left: 10px;
+}
+
+#bullet {
+    line-height: 1.5em;
+    list-style-type: circle;
 }
 
 /* dropdown?
