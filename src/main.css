@@ -311,7 +311,7 @@ p , a {
 
 #bullet {
     line-height: 1.5em;
-    list-style-type: circle;
+    list-style-type: none;
 }
 
 /* dropdown?
@@ -688,7 +688,7 @@ blockquote {
     border-radius: 50%;
 }
 
-.avatar-2 {
+.avatar {
     width: 120px;
     height: 120px;
     border-radius: 50%;
@@ -735,7 +735,7 @@ p.a {
 
 #bullet {
     line-height: 1.5em;
-    list-style-type: circle;
+    list-style-type: none;
 }
 
 }
