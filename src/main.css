@@ -25,6 +25,7 @@ img .frontpage-img{
 header {
     background: url(../img/background-img-medium.jpg) no-repeat center; 
     background-size: cover;
+    /*filter: brightness(0.4);*/
     height: 900px;
     /*margin: 0;
     position: sticky;
@@ -71,43 +72,49 @@ button.btn-mobile-menu {
 
 .frontpage-content {
     position: absolute;
-    top: 180px;
+    top: 350px;
     left: 20px;
-    background-color: rgba(255, 255, 255, 0.037);
+    margin: 0;
     font-family: 'Barlow Semi Condensed', sans-serif;
 }
 
-.welcome {
+h2.welcome {
     color: rgb(191, 146, 91);
     text-transform: uppercase;
-    font-size: 2rem;
+    margin: 0;
+    font-size: 1.5rem;
 }
 
 .frontpage-quote {
     color: white;
     text-transform: uppercase;
+    margin: 0;
     font-size: 3rem;
+    line-height: 50px;
 }
 
 .frontpage-span {
     color: transparent;
-    -webkit-text-stroke: 0.1px rgb(255, 255, 255);
+    -webkit-text-stroke: 0.5px rgb(255, 255, 255);
     -webkit-text-fill-color: transparent;
     }
 
-.frontpage-text {
+p.frontpage-text {
     color: white;
     font-family: 'Poppins';
+    line-height: 20px;
+    font-size: 1rem;
 }
 
 .frontpage-btn {
     text-transform: uppercase;
     border: 3px solid;
     padding: 10px;
-    border-color:rgb(191, 146, 91);
+    border-color:rgb(182, 139, 87);
     background-color: transparent;
-    color: rgb(191, 146, 91);
-    margin: 20px;
+    color: rgb(182, 139, 87);
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    /*margin: 20px;*/
     cursor: pointer;
 }
 
@@ -364,6 +371,7 @@ p , a {
     
     header {
         background: url(../img/background-img-medium.jpg) no-repeat center; 
+        /*filter: brightness(0.4);*/
         background-size: cover;
         height: 900px;
         /*margin: 0;
@@ -428,7 +436,6 @@ p , a {
         width: 600px;
         top: 180px;
         right: 300px;
-        background-color: rgba(255, 255, 255, 0.037);
         font-family: 'Barlow Semi Condensed', sans-serif;
     }
     
@@ -522,7 +529,7 @@ p , a {
 .services p {
     font-family: 'Poppins';
     color: white;
-    font-size: .95rem;
+    font-size: .9rem;
     text-align: center;
     padding: 20px;
 }
@@ -668,7 +675,7 @@ blockquote {
     justify-content: center;
 }
 
-.img-quotation {
+.quotation-position {
     display: flex;
     justify-content: flex-start;
 }
@@ -679,6 +686,13 @@ blockquote {
     height: 40px;
     border: 5px solid  rgb(191, 146, 91);
     border-radius: 50%;
+}
+
+.avatar-2 {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-top: -60px;
 }
 
 /*
@@ -699,7 +713,7 @@ blockquote {
     text-transform: uppercase;
 }
 
-p , a {
+p.a {
     font-family: 'Poppins';
     font-size: .8rem;
 }
