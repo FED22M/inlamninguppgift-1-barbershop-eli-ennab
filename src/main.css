@@ -556,22 +556,45 @@ button.btn-mobile-menu {
 
 .about-img {
     display: flex;
-    height: 500px;
-    width: 400px;
+    height: 600px;
+    width: 500px;
 }
 
 .container-about-img {
     display: flex;
     justify-content: flex-end;
     width: 50%;
-    margin-right: 10px;
 }
 
 .about-barber {
     display: flex;
     width: 50%;
     flex-direction: column;
-    margin-left: 10px;
+    margin-left: 20px;
+}
+
+.about-barber h2 , h3 {
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    text-transform: uppercase;
+}
+
+.about-barber h2 {
+    color: rgb(191, 146, 91);
+    font-size: 1rem;
+    margin-top: 120px;
+}
+
+.about-barber h3 {
+    color: rgb(0, 0, 0);
+    font-size: 3rem;
+    text-align: left;
+    margin: 0;
+}
+
+.about-barber p {
+    color: inherit;
+    font-size: .95rem;
+    font-family: 'Poppins';
 }
 
 /* calendar button */
@@ -581,7 +604,6 @@ button.btn-mobile-menu {
     text-transform: uppercase;
     height: 80px;
     width: 200px;
-    margin: 10px;
     background-color:rgb(191, 146, 91);
     cursor: pointer;
     justify-content: space-evenly;
