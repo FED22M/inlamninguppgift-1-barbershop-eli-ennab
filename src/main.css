@@ -90,15 +90,16 @@ h2.welcome {
     color: rgb(191, 146, 91);
     text-transform: uppercase;
     margin: 0;
-    font-size: 1.5rem;
+    margin-bottom: 5px;
+    font-size: 1.2rem;
 }
 
 .frontpage-quote {
     color: white;
     text-transform: uppercase;
     margin: 0;
-    font-size: 3rem;
-    line-height: 50px;
+    font-size: 2.3rem;
+    line-height: 45px;
 }
 
 .frontpage-span {
@@ -110,17 +111,19 @@ h2.welcome {
 p.frontpage-text {
     color: white;
     font-family: 'Poppins';
-    line-height: 20px;
-    font-size: 1rem;
+    line-height: 25px;
+    font-size: .8rem;
 }
 
 .frontpage-btn {
     text-transform: uppercase;
     border: 3px solid;
     padding: 10px;
+    margin-top: 20px;
     border-color:rgb(182, 139, 87);
     background-color: transparent;
     color: rgb(182, 139, 87);
+    letter-spacing: 1px;
     font-family: 'Barlow Semi Condensed', sans-serif;
     /*margin: 20px;*/
     cursor: pointer;
@@ -212,6 +215,7 @@ p.frontpage-text {
     height: 80px;
     width: 200px;
     margin: 10px;
+    border: none;
     background-color:rgb(191, 146, 91);
     cursor: pointer;
     justify-content: space-evenly;
@@ -267,19 +271,29 @@ p.frontpage-text {
     display: none;
 }
 
+.testimonial-header {
+    display: none;
+}
+
 /* testimonal text */
 
 .testimonial h2 {
     color: rgb(191, 146, 91);
-    font-size: 1.5rem;
+    font-size: 1.1rem;
     font-family: 'Barlow Semi Condensed';
     text-transform: uppercase;
+    margin: 0 auto;
 }
 
 .testimonial h3 {
-    font-size: 1.7rem;
+    display: flex;
+    text-align: center;
+    font-size: 1.5rem;
     font-family: 'Barlow Semi Condensed';
     text-transform: uppercase;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    margin-top: 6px;
 }
 
 .testimonial-whitebox.p {
@@ -344,12 +358,9 @@ blockquote {
     color: rgb(191, 146, 91);
 }
 
-.fa-active {
-    color:rgb(191, 146, 91);
-}
-
 .fa-circle {
-    color: grey;
+    color: rgb(207, 206, 200);
+    font-weight: 100;
 }
 
 /* testimonial avatars */
@@ -367,6 +378,7 @@ blockquote {
 footer {
     background-color: black;
     color: white;
+    padding-bottom: 30px;
 }
 
 .footer h2 {
@@ -383,11 +395,15 @@ footer {
     text-decoration: none;
     color: white;
     font-family: 'Poppins';
-    font-size: .8rem;
+    font-size: .9rem;
 }
 
 .footer-barbershop , .footer-explore , .footer-info , .footer-contact {
     margin-left: 10px;
+}
+
+.footer-barbershop {
+    display: none;
 }
 
 /* icons and bullets */
