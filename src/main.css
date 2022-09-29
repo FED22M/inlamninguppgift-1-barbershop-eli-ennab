@@ -550,6 +550,30 @@ button.btn-mobile-menu {
 
 /* about us */
 
+.about-us {
+    display: flex;
+}
+
+.about-img {
+    display: flex;
+    height: 500px;
+    width: 400px;
+}
+
+.container-about-img {
+    display: flex;
+    justify-content: flex-end;
+    width: 50%;
+    margin-right: 10px;
+}
+
+.about-barber {
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    margin-left: 10px;
+}
+
 /* calendar button */
 
 .calendar {
