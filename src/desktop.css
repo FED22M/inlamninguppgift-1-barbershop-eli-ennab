@@ -39,15 +39,14 @@
         font-family: 'Barlow Semi Condensed', sans-serif;
     }
         
-    button.btn-mobile-menu {
+    /* mobil dropdown menu */
+    button.menu-button, #menu-button, .menu-button, .menu {
         display: none;
     }
-        
+ 
     .desktop-menu a {
-        align-self: right;
         background-color: var(--third-color);
         padding-right: 20px;
-        padding-top: 30x;
         color: rgb(194, 194, 194);
         text-transform: uppercase;
         text-decoration: none;
@@ -116,7 +115,6 @@
     .frontpage-right {
         display: flex;
         flex-wrap: wrap;
-        align-items: left;
         border-left: 2px solid var(--primary-color);
         justify-content: flex-start;
         padding-left: 200px;
