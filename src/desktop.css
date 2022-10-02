@@ -19,7 +19,6 @@
         width: 100%;
         height: 50px;
         background-color: var(--third-color);
-        opacity: 0.9;
         color: var(--secondary-color);
         text-transform: uppercase;
         justify-content: space-around;
@@ -259,6 +258,7 @@
     
     .calendar a {
         font-size: 0.8rem;
+        font-family: 'Barlow Semi Condensed';
         text-decoration: none;
         color: var(--secondary-color);
         text-align: left;
@@ -455,7 +455,7 @@
         border-radius: 50%;
     }
     
-    #bullet {
+    .bullet {
         line-height: 1.5em;
         list-style-type: none;
     }

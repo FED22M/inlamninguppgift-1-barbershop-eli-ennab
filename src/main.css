@@ -38,7 +38,6 @@ header {
     width: 100%;
     height: 50px;
     background-color: var(--third-color);
-    opacity: 0.9;
     color: var(--secondary-color);
     text-transform: uppercase;
     justify-content: space-between;
@@ -51,20 +50,6 @@ h1 {
     letter-spacing: 1px;
     font-family: 'Barlow Semi Condensed', sans-serif;
 }
-
-/*
-button.menu-button {
-    align-self: right;
-    background-color:var(--third-color);
-    padding-right: 20px;
-    color: rgb(194, 194, 194);
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    border: none;
-    cursor: pointer;
-    font-family: 'Barlow Semi Condensed', sans-serif;
-}
-*/
 
 button + .menu {
     display: none;
@@ -86,12 +71,13 @@ button#menu-button {
 
 button.menu-open + .menu {
     display: flex;
-    flex-direction: row;
-    align-items: center;
     opacity: 1;
     visibility: visible;
     font-family: 'Barlow Semi Condensed', sans serif;
     text-transform: uppercase;
+    flex-direction: column;
+    padding-top: 50px;
+    border-bottom: 2px solid var(--primary-color);
 }
 
 button.menu-open {
@@ -141,7 +127,7 @@ h2.welcome {
     color: transparent;
     letter-spacing: 0.1rem;
     -webkit-text-stroke: 0.1px rgb(255, 255, 255);
-    -webkit-text-fill-color: transparent;
+    /*-webkit-text-fill-color: transparent;*/
     }
 
 p.frontpage-text {
@@ -241,9 +227,9 @@ p.frontpage-text {
 
 .about-barber h3 {
     color: var(--third-color);
-    font-size: 1.8rem;
+    font-size: 1.4rem;
     text-align: left;
-    padding-left: 15px;
+    padding-left: 10px;
     margin: 0;
 }
 
@@ -251,7 +237,8 @@ p.frontpage-text {
     color: inherit;
     font-size: .8rem;
     font-family: 'Poppins';
-    padding-left: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .calendar {
@@ -291,6 +278,7 @@ p.frontpage-text {
     text-decoration: none;
     color: var(--secondary-color);
     text-align: left;
+    font-family: 'Barlow Semi Condensed';
 }
 
 /* testimonial */
@@ -484,7 +472,7 @@ a:hover {
     border-radius: 50%;
 }
 
-#bullet {
+.bullet {
     line-height: 1.5em;
     list-style-type: none;
 }
